@@ -10,6 +10,10 @@ Early design phase. Architectural decisions are recorded as ADRs in [`docs/decis
 - [ADR-002: Cloud-first always-on execution over a dedicated Mac mini](docs/decisions/002-remote-vps-vs-mac-mini.md)
 - [ADR-003: AWS Lightsail for MVP hosting, with Hetzner portability](docs/decisions/003-aws-lightsail-vs-hetzner.md)
 
+Runbooks (how to deploy and operate) live in [`docs/runbooks/`](docs/runbooks/):
+
+- [Runbook 001: Lightsail server setup and first SSH connection](docs/runbooks/001-lightsail-server-setup.md)
+
 ## Architecture rule
 
 Do not fork or copy OpenClaw into this repository. Keep it as an upstream dependency and version its configuration under `config/`. Keep herdr independently maintained and integrate through its CLI or a stable API.
@@ -18,7 +22,7 @@ Do not fork or copy OpenClaw into this repository. Keep it as an upstream depend
 
 | Path | Purpose |
 |---|---|
-| `docs/` | Architecture, decisions (ADRs), evaluations, experiments |
+| `docs/` | Architecture, decisions (ADRs), runbooks, evaluations, experiments |
 | `config/` | Versioned OpenClaw and agent configuration |
 | `src/` | Integrations, workflows, tools, observability, security |
 | `infra/` | AWS, Docker, and bootstrap scripts |
