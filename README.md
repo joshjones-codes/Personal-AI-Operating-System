@@ -13,6 +13,9 @@ Early design phase. Architectural decisions are recorded as ADRs in [`docs/decis
 Runbooks (how to deploy and operate) live in [`docs/runbooks/`](docs/runbooks/):
 
 - [Runbook 001: Lightsail server setup and first SSH connection](docs/runbooks/001-lightsail-server-setup.md)
+- [Runbook 002: Firewall inspection and swap setup](docs/runbooks/002-firewall-and-swap.md)
+- [Runbook 003: Tailscale private networking](docs/runbooks/003-tailscale-private-networking.md)
+- [Runbook 004: Docker Engine and Compose](docs/runbooks/004-docker-installation.md)
 
 ## Architecture rule
 
